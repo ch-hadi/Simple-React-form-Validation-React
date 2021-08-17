@@ -52,6 +52,7 @@ const formSubmitHandler=(event)=>{
 return (
     <form>
       <div className='form-control'>
+        <label htmlFor='title' style={{textAlign:'center' , marginBottom:'50px', color:'saddlebrown', fontSize:20}}>Form Validation</label>
         <label htmlFor='name'>Your Name</label>
         <input 
         type='text' 
