@@ -61,7 +61,7 @@ return (
         onBlur={inputBlurHandler}
         value={enteredName}
         />
-        {nameInputIsInvalid && (<p className='error-text'>No !!</p>)}
+        {nameInputIsInvalid && (<p className='error-text'>Enter valid Name..!!</p>)}
       </div>
       <div className='form-control'>
         <label htmlFor='email'>Your Email</label>
@@ -72,7 +72,7 @@ return (
         onBlur={emailBlurHandler}
         value={enterdMail}
         />
-        {EmailInputIsInvalid && (<p className='error-text'>No !!</p>)}
+        {EmailInputIsInvalid && (<p className='error-text'>Enter Valid Email..!!</p>)}
       </div>
       <div className="form-actions">
         <button onClick={formSubmitHandler}>Submit</button>
